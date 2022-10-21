@@ -1,25 +1,28 @@
-import logo from '../media/logo.svg';
-import '../css/App.css';
+import logo from "../media/sliceLogoSquare.jpeg"
+import downArrow from "../media/icons/expandDown.png"
+import { Parallax } from "react-scroll-parallax";
+import Info from "./Info";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Parallax speed={-100}>
+                <header className="App-header">
+                    <img src={logo} className="App-logo" alt="logo" />
+                    <p>Welcome to</p>
+                    <h1>Slice of Life</h1>
+                    <img src={downArrow} className="App-down" alt=""/>
+                </header>
+            </Parallax>
+            <Parallax>
+                <Info/>
+            </Parallax>
+            <Parallax>
+
+            </Parallax>
+        </div>
+    );
 }
 
 export default App;
+
