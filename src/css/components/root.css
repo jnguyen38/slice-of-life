@@ -1,0 +1,58 @@
+:root {
+    --slice-orange: #E0A15C;
+    --slice-blue: #03989E;
+    --header-height: 60px;
+}
+
+body {
+    margin: 0;
+    font-family: "Outfit", "Yellowtail", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-family: Outfit, sans-serif;
+}
+
+a { text-decoration: none; }
+a:active { text-decoration: none; }
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+a:link { text-decoration: none; }
+
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+
+.d-flex-cc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buffer-100vh {
+    height: 100vh;
+    z-index: -1000;
+}
+
+@font-face {
+    font-family: Outfit;
+    font-weight: 100 900;
+    src: url("../../media/fonts/Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Yellowtail;
+    src: url("../../media/fonts/Yellowtail/Yellowtail-Regular.ttf") format("truetype");
+}

@@ -2,18 +2,26 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import App from './js/App';
+import Header from './js/Header';
+import Register from "./js/Register";
 import reportWebVitals from './js/reportWebVitals';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
 
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {ParallaxProvider} from "react-scroll-parallax";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
     <BrowserRouter>
-        <React.StrictMode>
-            <Routes>
-                <Route path="/*" element={<App/>}/>
-            </Routes>
-        </React.StrictMode>
+        <ParallaxProvider>
+            <React.StrictMode>
+                <Header/>
+                <Routes>
+                    <Route path="/register" element={<Register/>}/>
+                    <Route path="/*" element={<App/>}/>
+                </Routes>
+            </React.StrictMode>
+        </ParallaxProvider>
     </BrowserRouter>
 );
 
