@@ -17,9 +17,7 @@ function App() {
             <Parallax>
                 <Info/>
             </Parallax>
-            <Parallax>
 
-            </Parallax>
         </div>
     );
 }

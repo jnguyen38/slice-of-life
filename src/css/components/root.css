@@ -1,11 +1,12 @@
 :root {
     --slice-orange: #E0A15C;
     --slice-blue: #03989E;
+    --header-height: 60px;
 }
 
 body {
     margin: 0;
-    font-family: "Outfit", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: "Outfit", "Yellowtail", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -19,7 +20,7 @@ code {
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
-    font-family: Outfit, "sans-serif";
+    font-family: Outfit, sans-serif;
 }
 
 a { text-decoration: none; }
@@ -29,6 +30,10 @@ a:visited {
     color: inherit;
 }
 a:link { text-decoration: none; }
+
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
 
 .d-flex-cc {
     display: flex;
@@ -42,7 +47,12 @@ a:link { text-decoration: none; }
 }
 
 @font-face {
-    font-family: "Outfit";
+    font-family: Outfit;
     font-weight: 100 900;
     src: url("../../media/fonts/Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Yellowtail;
+    src: url("../../media/fonts/Yellowtail/Yellowtail-Regular.ttf") format("truetype");
 }

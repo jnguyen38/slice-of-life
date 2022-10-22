@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e46fdc7c-6edd-45c9-9549-fe608b0419a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/css/components/Register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/media/fonts/Yellowtail/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/media/fonts/Yellowtail/Yellowtail-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/components/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/components/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/Header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/components/Info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/Info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/components/parallax.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/components/root.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/root.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Info.js" afterDir="false" />
     </list>
@@ -36,29 +42,29 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jnguy/GitHub/slice-of-life/src/media/icons",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jnguy/GitHub/slice-of-life/src/media/icons&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\media\icons" />
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\media\fonts" />
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\media\icons" />
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\media" />
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\css\components" />
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\js" />
-      <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,7 +77,8 @@
       <updated>1664491036104</updated>
       <workItem from="1664491042171" duration="3445000" />
       <workItem from="1664947742449" duration="9812000" />
-      <workItem from="1666324022553" duration="7557000" />
+      <workItem from="1666324022553" duration="20005000" />
+      <workItem from="1666391136532" duration="7707000" />
     </task>
     <servers />
   </component>

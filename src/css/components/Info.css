@@ -1,11 +1,25 @@
-.Info-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#info-container {
+    display: grid;
     justify-content: center;
-    min-height: 100vh;
-    font-size: calc(10px + 2vmin);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: fit-content(200px);
+    grid-gap: 15px;
+    min-height: 200vh;
     background-color: white;
-    scroll-behavior: smooth;
-    padding: 0 10%;
+    margin-bottom: 20px;
+    padding: 100px 10%;
+}
+
+.info-text {
+    height: auto;
+}
+
+.info-text h2 {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+
+.info-text p {
+    margin: 10px 0;
+    font-size: 1.1em;
 }
