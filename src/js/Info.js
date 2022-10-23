@@ -34,9 +34,9 @@ function InfoDisplay(props) {
                 <p>Slice of Life is a development program that provides tutoring and life skill services for only $100 a semester per student. We provide help for children of grades K-5. The program currently operates Tuesday, Wednesday, and Thursday from 3:15PM until 5:15PM. This after school program is located at Christian Life Center South Bend, 1717 N. Hickory Rd., South Bend, IN 46635. We provide individual tutoring, life skills, character development, recreational team building, field trips, guest speakers, small group interactions, nutritional snacks, parent meetings and award ceremony with celebrations.</p>
             </div>
             <img src="" alt="" className={(props.width > 1000) ? "grid-4" : "grid-12"}/>
-            <img src="" alt="" className={(props.width > 1000) ? "grid-6" : "grid-12"}/>
-            <div className={(props.width > 1000) ? "info-text text-left grid-6" : " info-text text-left grid-8"}>
+            <div className="info-text text-center grid-12" id="info-mission">
                 <h2>Our Mission</h2>
+                <div className="line"/>
                 <p>To provide positive reinforcements for physical and emotional wellness, academic achievement, leadership development and community service to youth in grades K-5.</p>
             </div>
         </section>

@@ -37,6 +37,17 @@
     }
 }
 
+#info-mission {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--slice-orange);
+    color: white;
+    border-radius: 5px;
+}
+
 .info-text {
     height: auto;
 }
