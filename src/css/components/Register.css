@@ -54,8 +54,6 @@
     transform: translateY(-10px);
 }
 
-.grid-4 {grid-column: span 4;}
-.grid-8 {grid-column: span 8;}
-.grid-12 {grid-column: span 12;}
+
 
 
