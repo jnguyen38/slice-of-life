@@ -1,6 +1,10 @@
 import {Link} from "react-router-dom";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import logo from "../media/sliceLogoTransparent.png";
+
+function handleScroll() {
+
+}
 
 function Header() {
     const [menuClicked, setMenuClicked] = useState(false);
@@ -14,6 +18,13 @@ function Header() {
            return !menuClicked;
         });
     }
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll, { passive: true })
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        };
+    });
 
     return (
         <div className="header">

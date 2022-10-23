@@ -1,4 +1,11 @@
+import {useEffect} from "react";
+
 function Register() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <div id="reg-container">
             <div id="reg-display">
