@@ -41,9 +41,8 @@ a:link { text-decoration: none; }
     justify-content: center;
 }
 
-.buffer-100vh {
-    height: 100vh;
-    z-index: -1000;
+textarea:focus, input:focus{
+    outline: none;
 }
 
 @font-face {
