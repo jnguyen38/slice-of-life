@@ -19,7 +19,7 @@
     margin: 40px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px #333333;
+    box-shadow: 2px 2px 2px #333333;
 }
 
 #reg-display h1 {
@@ -37,11 +37,23 @@
 }
 
 .reg-text {
+    border: 0 #333333 solid;
+    border-bottom-width: 1px;
+    font-family: Outfit, sans-serif;
+    transition: all .3s;
+}
+
+.reg-text:focus {
+    border: 0 var(--slice-blue) solid;
+    border-bottom-width: 3px;
 
 }
 
-.grid-4 {grid-column: span 4;}
-.grid-8 {grid-column: span 8;}
-.grid-12 {grid-column: span 12;}
+.reg-label {
+    position: absolute;
+    transform: translateY(-10px);
+}
+
+
 
 

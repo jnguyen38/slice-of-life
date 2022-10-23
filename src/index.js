@@ -5,6 +5,7 @@ import App from './js/App';
 import Header from './js/Header';
 import Register from "./js/Register";
 import reportWebVitals from './js/reportWebVitals';
+import Footer from "./js/Footer";
 
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {ParallaxProvider} from "react-scroll-parallax";
@@ -20,6 +21,7 @@ root.render(
                     <Route path="/register" element={<Register/>}/>
                     <Route path="/*" element={<App/>}/>
                 </Routes>
+                <Footer/>
             </React.StrictMode>
         </ParallaxProvider>
     </BrowserRouter>
