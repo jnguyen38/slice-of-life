@@ -51,7 +51,6 @@ function Info() {
             <InfoNav/>
             <InfoDisplay height={height} width={width}/>
         </div>
-
     );
 }
 

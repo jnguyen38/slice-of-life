@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 function Footer() {
     return (
         <div id="footer-container">
@@ -22,6 +24,15 @@ function Footer() {
                     <div className="line"/>
                     <p>Gerri Griffin<br/>
                         Elaine Taylor
+                    </p>
+                </div>
+                <div id="footer-Volunteer">
+                    <Link to={"./volunteer"}>
+                        <h1>Volunteer</h1>
+                    </Link>
+                    <div className="line"/>
+                    <p>Volunteer<br/>
+                        Donate
                     </p>
                 </div>
             </div>
