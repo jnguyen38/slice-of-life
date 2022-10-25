@@ -1,3 +1,3 @@
 # Slice of Life 
 
-A website for the Slice of Life South Bend Education Program, hosted by the Christian Life Center of South Bend
+Source code for the Slice of Life South Bend charity organization, located at the Christian Life Center. Written with CRA and hosted on Vercel.
