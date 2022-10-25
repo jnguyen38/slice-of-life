@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e46fdc7c-6edd-45c9-9549-fe608b0419a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/components/Info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/Info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/components/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/Register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/components/root.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/root.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Info.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Register.js" afterDir="false" />
     </list>
@@ -37,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jnguy/GitHub/slice-of-life/public",
+    "last_opened_file_path": "C:/Users/jnguy/GitHub/testProj",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

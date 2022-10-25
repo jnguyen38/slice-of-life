@@ -6,7 +6,7 @@
     width: 100%;
     min-height: 100vh;
     padding-top: calc(var(--header-height) * 1);
-    background-color: var(--slice-blue);
+    background-image: linear-gradient(var(--slice-blue), var(--slice-orange));
 }
 
 #reg-display {
@@ -19,7 +19,7 @@
     margin: 40px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 2px 2px 2px #333333;
+    box-shadow: 2px 2px 5px #333333;
 }
 
 #reg-display h1 {
@@ -45,12 +45,10 @@
 
 .reg-text:focus {
     border: 0 var(--slice-blue) solid;
-    border-bottom-width: 3px;
-
+    border-bottom-width: 2px;
 }
 
 .reg-label {
-    position: absolute;
     transform: translateY(-10px);
 }
 
