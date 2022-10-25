@@ -1,3 +1,4 @@
 # Slice of Life 
 
-Source code for the Slice of Life South Bend charity organization, located at the Christian Life Center. Written with CRA and hosted on Vercel.
+Website for the Slice of Life South Bend charity organization, located at the Christian Life Center. 
+Source code written in ReactJS, using CRA and hosted on Vercel.
