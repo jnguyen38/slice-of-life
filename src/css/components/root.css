@@ -64,6 +64,9 @@ textarea:focus, input:focus{
     margin: 3px 0 6px 0;
 }
 
+.black {background-color: black !important;}
+.thick {height: 4px !important;}
+
 @font-face {
     font-family: Outfit;
     font-weight: 100 900;

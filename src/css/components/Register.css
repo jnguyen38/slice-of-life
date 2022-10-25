@@ -6,7 +6,7 @@
     width: 100%;
     min-height: 100vh;
     padding-top: calc(var(--header-height) * 1);
-    background-image: linear-gradient(90deg, var(--slice-blue), var(--slice-orange));
+    background-image: linear-gradient(var(--slice-blue), var(--slice-orange));
 }
 
 #reg-display {
@@ -45,12 +45,10 @@
 
 .reg-text:focus {
     border: 0 var(--slice-blue) solid;
-    border-bottom-width: 3px;
-
+    border-bottom-width: 2px;
 }
 
 .reg-label {
-    position: absolute;
     transform: translateY(-10px);
 }
 
