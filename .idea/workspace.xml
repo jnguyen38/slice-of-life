@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e46fdc7c-6edd-45c9-9549-fe608b0419a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/components/Register.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/Register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/components/root.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/root.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +32,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jnguy/GitHub/testProj",
+    "last_opened_file_path": "C:/Users/jnguy/GitHub/nextjs-blog",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,6 +65,8 @@
       <workItem from="1664947742449" duration="9812000" />
       <workItem from="1666324022553" duration="20005000" />
       <workItem from="1666391136532" duration="19097000" />
+      <workItem from="1666757584942" duration="7737000" />
+      <workItem from="1671304364632" duration="1933000" />
     </task>
     <servers />
   </component>
