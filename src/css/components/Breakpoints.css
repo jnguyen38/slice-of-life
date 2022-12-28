@@ -1,0 +1,41 @@
+/* Phone Screen */
+
+@media (max-width: 768px) {
+    main {
+        width: 85%;
+        padding: calc(2 * var(--header-height)) 0 ;
+        margin: 0 auto;
+    }
+
+    .gridItem {
+        padding: 40px;
+    }
+
+    .warning {font-size: .85em !important;}
+    aside.side-nav {display: none;}
+    .fs-xs {font-size: .6em !important}
+    .fs-sm {font-size: 1.1em !important;}
+    .fs-smd {font-size: 1.3em !important;}
+}
+
+/* Tablet Screen */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    main {
+        width: 70%;
+        padding: var(--header-height) 0;
+        margin: 0 auto;
+    }
+
+    aside.side-nav {display: none;}
+}
+
+/* Laptop Screen */
+
+@media (min-width: 992px) {
+    main {
+        width: 70%;
+        padding: var(--header-height) 0;
+        margin: 0 auto;
+    }
+}
