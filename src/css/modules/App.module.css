@@ -2,14 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
+.AppLogo {
   height: 60vmin;
   min-height: 350px;
   pointer-events: none;
 }
 
-.App-header {
-  background-color: var(--slice-blue);
+.AppHeader {
+  background-color: var(--theme-blue);
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -20,22 +20,22 @@
   color: white;
 }
 
-.App-header h1 {
+.AppHeader h1 {
   font-family: Yellowtail, sans-serif;
   font-size: 3em;
 }
 
-.App-header p {
+.AppHeader p {
   font-style: italic;
 }
 
 @media {
-  .App-down {
-    animation: App-point-down infinite 1.5s ease-in-out;
+  .AppDown {
+    animation: point-down infinite 1.5s ease-in-out;
   }
 }
 
-@keyframes App-point-down {
+@keyframes point-down {
   0% {
     transform: translateY(10px);
   } 50% {

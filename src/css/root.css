@@ -1,0 +1,192 @@
+@import "./components/Spacing.css";
+@import "./components/Breakpoints.css";
+
+:root {
+    --theme-black: #333333;
+    --theme-white: #ffffff;
+    --theme-orange: #E0A15C;
+    --theme-blue: #03989E;
+    --theme-blue-transparent: #03989ECC;
+    --warning-bg: #fdefef;
+    --warning-text: #fd0001;
+    --border-radius: 5px;
+    --header-height: 60px;
+    --result-margin-bottom: 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+body {
+    margin: 0;
+    font-family: "Outfit", "Yellowtail", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-family: Outfit, sans-serif;
+    font-weight: 300;
+}
+
+/* Link Classes */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+a:active { text-decoration: none; }
+a:link { text-decoration: none; }
+
+/* Text Classes */
+
+.fw-1 {font-weight: 100;}
+.fw-2 {font-weight: 200;}
+.fw-3 {font-weight: 300;}
+.fw-4 {font-weight: 400;}
+.fw-5 {font-weight: 500;}
+.fw-6 {font-weight: 600;}
+.fw-7 {font-weight: 700;}
+.fw-8 {font-weight: 800;}
+.fw-9 {font-weight: 900;}
+.fs-xs {font-size: .8em;}
+.fs-eh {font-size: 1.1em;}
+.fs-sm {font-size: 1.2em;}
+.fs-smd {font-size: 1.5em;}
+.fs-md {font-size: 1.8em;}
+.fs-lg {font-size: 2.2em;}
+.fs-xl {font-size: 2.6em;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+.underline {text-decoration: underline !important;}
+.italic {font-style: italic}
+
+/* Button Classes */
+
+.clickable {cursor: pointer}
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Chrome, Edge, Opera and Firefox */
+}
+
+/* Flexbox Classes */
+
+.d-none {display: none !important;}
+.d-flex {display: flex; align-items: center;}
+.f-wrap {flex-wrap: wrap;}
+.f-col {flex-direction: column;}
+.jc-sb {justify-content: space-between;}
+.jc-sa {justify-content: space-around;}
+.jc-fs {justify-content: flex-start;}
+.jc-fe {justify-content: flex-end;}
+.jc-c {justify-content: center;}
+.as-c {align-self: center;}
+.as-fs {align-self: flex-start;}
+.as-fe {align-self: flex-end;}
+
+.d-flex-row-l {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.d-flex-row-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex-col-l {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.d-flex-col-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f-responsive-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    min-width: 90px;
+    height: 40px;
+    font-family: Outfit, sans-serif;
+    border-radius: var(--border-radius);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    padding: 0 20px;
+    font-size: 1em;
+}
+
+/* Grid Classes */
+.d-grid {display: grid;}
+.grid-col-12 {grid-template-columns: repeat(12, 1fr);}
+.grid-4 {grid-column: span 4;}
+.grid-6 {grid-column: span 6;}
+.grid-8 {grid-column: span 8;}
+.grid-12 {grid-column: span 12;}
+
+/* Line Classes */
+
+.line {
+    width: 50px;
+    height: 2px;
+    margin: 6px 0;
+}
+
+.thick {height: 5px !important;}
+.thin {height: 1px !important;}
+.full-width {width: 100% !important;}
+.white {background-color: var(--theme-white)}
+.black {background-color: var(--theme-black)}
+.black-text {color: var(--theme-black)}
+.blue-text {color: var(--theme-blue) !important}
+
+.fill {
+    width: 100%;
+    height: 100%;
+}
+
+.fs-buffer {
+    height: 100vh;
+    width: 80%;
+}
+
+@font-face {
+    font-family: Outfit;
+    font-weight: 100 900;
+    src: url("fonts/Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Yellowtail;
+    src: url("fonts/Yellowtail/Yellowtail-Regular.ttf") format("truetype");
+}

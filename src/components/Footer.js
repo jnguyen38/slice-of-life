@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+import Link from "next/link";
 
 function Footer() {
     return (
@@ -27,9 +27,7 @@ function Footer() {
                     </p>
                 </div>
                 <div id="footer-Volunteer">
-                    <Link to={"./volunteer"}>
-                        <h1>Volunteer</h1>
-                    </Link>
+                    <Link href={"/volunteer"}><h1>Volunteer</h1></Link>
                     <div className="line"/>
                     <p>Volunteer<br/>
                         Donate
@@ -37,7 +35,7 @@ function Footer() {
                 </div>
             </div>
             <div id="footer-cr">
-                <p><span>&#169;</span> 2022 by Slice of Life South Bend</p>
+                <p>&#169; 2022 by Slice of Life South Bend</p>
             </div>
         </div>
     );

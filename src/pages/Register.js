@@ -14,7 +14,6 @@ function Register() {
                 <form id="reg-form">
                     <label htmlFor="firstname" className="reg-label">First Name</label>
                     <input type="text" name="firstname" className="reg-text grid-4"/>
-
                     <label htmlFor="lastname" className="reg-label">Last Name</label>
                     <input type="text" name="lastname" className="reg-text grid-4"/>
                 </form>
