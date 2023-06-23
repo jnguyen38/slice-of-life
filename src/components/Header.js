@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import styles from "../css/components/Header.module.css"
+import styles from "../css/modules/Header.module.css"
 import logo from "../../public/media/sliceLogoTransparent.png";
 import Link from "next/link";
 import Image from "next/image";

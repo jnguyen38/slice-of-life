@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.AppLogo {
+  height: 60vmin;
+  min-height: 350px;
+  pointer-events: none;
+}
+
+.AppHeader {
+  background-color: var(--theme-blue);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+}
+
+.AppHeader h1 {
+  font-family: Yellowtail, sans-serif;
+  font-size: 3em;
+}
+
+.AppHeader p {
+  font-style: italic;
+}
+
+@media {
+  .AppDown {
+    animation: point-down infinite 1.5s ease-in-out;
+  }
+}
+
+@keyframes point-down {
+  0% {
+    transform: translateY(10px);
+  } 50% {
+    transform: translateY(25px);
+  } 100% {
+    transform: translateY(10px);
+  }
+}
