@@ -4,6 +4,7 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
+    "@blueprintjs/core": "^5.1.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -11,8 +12,9 @@
     "eslint": "8.22.0",
     "eslint-config-next": "^13.1.1",
     "jquery": "^3.6.3",
+    "lodash": "^4.17.21",
+    "lodash.throttle": "^4.1.1",
     "next": "^13.1.1",
-    "nvm": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "uikit": "^3.16.22",
@@ -34,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@vercel/node": "^2.15.5"
   }
 }

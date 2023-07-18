@@ -1,17 +1,51 @@
 .header {
+    --header-transition: 200ms;
     height: var(--header-height);
-    padding: 0 10%;
-    width: 80%;
+    padding: 0 min(100px, 10%);
+    width: max(80%, calc(100vw - 200px));
     position: fixed;
     z-index: 100;
     backdrop-filter: blur(5px);
     background-color: var(--theme-blue-transparent);
     box-shadow: 0 0 5px var(--theme-blue-transparent);
+    transition: height var(--header-transition) ease-in-out;
+}
+
+.logo {
+    transition: width var(--header-transition) ease-in-out, height var(--header-transition) ease-in-out;
+}
+
+.headerTitle {
+    transition: font-size var(--header-transition) ease-in-out;
 }
 
 .headerMain {
     height: 100%;
+    width: 200px;
     cursor: pointer;
+}
+
+.headerNav {
+    flex-grow: 1;
+    transition: visibility var(--header-transition) ease-in-out, opacity var(--header-transition) ease-in-out;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.invisible {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.full {
+    --header-height: 60px;
+}
+
+.shrink {
+    --header-height: 40px;
 }
 
 .headerMain h1 {
@@ -20,17 +54,50 @@
 }
 
 .navItem {
-    color: white;
-    transition: background-color .3s, color .3s;
+    color: var(--theme-white);
+    position: relative;
+    --pseudo-width: 0;
 }
 
 .navItem:hover {
-    color: var(--theme-blue);
-    background-color: var(--theme-white);
+    --pseudo-width: 80%;
 }
 
 .navItem:active {
-    background-color: rgba(255, 255, 255, 1);
+    --pseudo-width: 100%;
+}
+
+.navItem:after {
+    width: var(--pseudo-width);
+    border-bottom: 1px solid var(--theme-white);
+    content: attr(content);
+    position: absolute;
+    bottom: 0;
+    transition: width 150ms ease-in-out;
+}
+
+.navItem.selected {
+    --pseudo-width: 80%;
+}
+
+#register {
+    margin-left: auto;
+    font-weight: 200;
+}
+
+.primaryButton {
+    padding: 8px 12px;
+    font-size: 1em;
+    font-weight: 300;
+    border-radius: var(--border-radius);
+    background-color: var(--theme-white);
+    color: var(--theme-blue) !important;
+    box-shadow: 0 0 1px var(--theme-white);
+    transition: box-shadow 150ms ease-in-out;
+}
+
+.primaryButton:hover {
+    box-shadow: 0 0 5px var(--theme-white);
 }
 
 .menu {
