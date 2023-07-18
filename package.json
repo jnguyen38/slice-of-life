@@ -12,8 +12,10 @@
     "eslint-config-next": "^13.1.1",
     "jquery": "^3.6.3",
     "next": "^13.1.1",
+    "nvm": "^0.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "uikit": "^3.16.22",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

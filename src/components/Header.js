@@ -32,15 +32,15 @@ function Header() {
                 <Image src={logo} alt={``} width={40} height={40}/>
                 <h1 className={`fs-md fw-2 px-1`}>Slice of Life</h1>
             </Link>
-            <nav className={`${styles.headerNav} d-flex-row-c h-100 mr-4`}>
-                <Link href={homeRedirect} className={`h-100`}>
-                    <div className={`${styles.navItem} d-flex-row-c h-100 px-2`}><p className={`fs-sm fw-3`}>Home</p></div>
+            <nav className={`${styles.headerNav} gap-1 d-flex-row-c mr-4`}>
+                <Link href={homeRedirect}>
+                    <div className={`${styles.navItem} d-flex-row-c p-1 rounded`}><p className={`fs-sm fw-3`}>Home</p></div>
                 </Link>
-                <Link href={regRedirect} className={`h-100`}>
-                    <div className={`${styles.navItem} d-flex-row-c h-100 px-2`}><p className={`fs-sm fw-3`}>Register</p></div>
+                <Link href={contactRedirect}>
+                    <div className={`${styles.navItem} d-flex-row-c p-1 rounded`}><p className={`fs-sm fw-3`}>Contact</p></div>
                 </Link>
-                <Link href={contactRedirect} className={`h-100`}>
-                    <div className={`${styles.navItem} d-flex-row-c h-100 px-2`}><p className={`fs-sm fw-3`}>Contact</p></div>
+                <Link href={regRedirect}>
+                    <div className={`${styles.navItem} d-flex-row-c p-1 rounded`}><p className={`fs-sm fw-3`}>Register</p></div>
                 </Link>
             </nav>
             <div id={`menu`} className={`${styles.menu} ${menu ? styles.rotated : ""} d-flex-col-c gap-1 clickable`} onClick={toggleMenu}>

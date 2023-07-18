@@ -4,7 +4,6 @@ import {useEffect} from "react";
 
 import styles from "../css/modules/App.module.css";
 import logo from "../../public/media/sliceLogoSquare.jpeg";
-import downArrow from "../../public/media/icons/expandDown.png";
 import Image from "next/image";
 
 function App() {
@@ -27,10 +26,9 @@ function App() {
             </Head>
 
             <header className={styles.AppHeader}>
-                <Image src={logo} className={styles.AppLogo} alt="" width={350} height={350}/>
+                <Image src={logo} className={styles.AppLogo} alt="" width={350} height={370} priority/>
                 <p>Welcome to</p>
                 <h1>Slice of Life</h1>
-                <img src={downArrow} className={styles.AppDown} alt="" />
             </header>
 
             <Info/>
