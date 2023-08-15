@@ -1,8 +1,7 @@
-#info-container {
+#infoContainer {
     display: flex;
     padding: 100px 10%;
     background-color: white;
-    min-height: 200vh;
     margin-bottom: 20px;
 }
 
@@ -23,7 +22,7 @@
 }
 
 #info-nav h2 {
-    color: var(--slice-blue);
+    color: var(--theme-blue);
 }
 
 #info-nav li {
@@ -43,7 +42,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: var(--slice-orange);
+    background-color: var(--theme-orange);
     color: white;
     border-radius: 5px;
 }

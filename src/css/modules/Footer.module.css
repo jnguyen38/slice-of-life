@@ -1,4 +1,4 @@
-#footer-container {
+#footerContainer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -6,32 +6,32 @@
     width: 90%;
     min-height: 50px;
     padding: 20px 5%;
-    background-color: var(--slice-blue);
+    background-color: var(--theme-blue);
     color: white;
     gap: 20px 50px;
 }
 
-#footer-info {
+#footerInfo {
     display: flex;
     flex-flow: wrap;
     gap: 20px 50px;
 }
 
-#footer-contact {
+#footerContact {
     min-width: 122px;
 }
 
-#footer-hours {
+#footerHours {
     min-width: 120px;
 }
 
-#footer-management {
+#footerManagement {
     min-width: 120px;
 }
 
-#footer-cr {
+#footerCr {
     align-self: flex-end;
 }
 
-#footer-container h1 {font-size: 1.2em}
-#footer-container p {font-size: 0.8em}
+#footerContainer h1 {font-size: 1.2em}
+#footerContainer p {font-size: 0.8em}

@@ -1,9 +1,11 @@
+import styles from "../css/modules/Info.module.css"
+
 function InfoNav() {
     return (
         <section>
-            <div id="info-nav">
+            <div id={`${styles["infoContainer"]}`}>
                 <h2>Navigation</h2>
-                <ul className="no-bullets text-right">
+                <ul>
                     <li>About Us</li>
                     <li>Our History</li>
                     <li>Who We Are</li>
@@ -41,7 +43,7 @@ function InfoDisplay() {
 function Info() {
 
     return (
-        <div id="info-container">
+        <div id={styles["infoContainer"]}>
             <InfoNav/>
             <InfoDisplay/>
         </div>
