@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e46fdc7c-6edd-45c9-9549-fe608b0419a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/css/modules/Volunteer.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/volunteer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/modules/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/modules/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/modules/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/modules/Footer.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/modules/Info.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/modules/Info.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/root.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/root.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -31,23 +39,29 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "content",
-    "last_opened_file_path": "/Users/jnguyen/projects/slice-of-life",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;content&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jnguyen/projects/slice-of-life&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;azure&quot;,
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\css\components" />
@@ -88,6 +102,9 @@
       <workItem from="1689739724104" duration="525000" />
       <workItem from="1689740279533" duration="51000" />
       <workItem from="1689740437987" duration="5093000" />
+      <workItem from="1692073052714" duration="4168000" />
+      <workItem from="1692561451793" duration="23937000" />
+      <workItem from="1694577170892" duration="637000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,5 @@
 @import "./components/Spacing.css";
+@import "./components/Input.css";
 @import "./components/Breakpoints.css";
 
 :root {
@@ -7,10 +8,13 @@
     --theme-orange: #E0A15C;
     --theme-blue: #03989E;
     --theme-blue-transparent: #03989ECC;
+    --theme-blue-overlay: #03989E33;
     --warning-bg: #fdefef;
     --warning-text: #fd0001;
     --border-radius: 5px;
     --header-height: 60px;
+    --footer-height: 90px;
+    --container-min-height: calc(100vh - var(--header-height) - var(--footer-height));
     --result-margin-bottom: 20px;
 }
 

@@ -10,6 +10,7 @@ function Header(props) {
     const homeRedirect = "/";
     const regRedirect = "/register";
     const contactRedirect = "/contact";
+    const volunteerRedirect = "/volunteer";
 
     function toggleMenu() {
         setMenu(curr => !curr);
@@ -33,6 +34,12 @@ function Header(props) {
                     <div
                         className={`${styles.navItem} ${props.page === "/contact" ? styles.selected : ""} d-flex-row-c p-1`}>
                         <p className={`fs-eh fw-2`}>Contact</p>
+                    </div>
+                </Link>
+                <Link href={volunteerRedirect}>
+                    <div
+                        className={`${styles.navItem} ${props.page === "/volunteer" ? styles.selected : ""} d-flex-row-c p-1`}>
+                        <p className={`fs-eh fw-2`}>Volunteer</p>
                     </div>
                 </Link>
                 <Link href={regRedirect} id={styles['register']} className={`${styles.primaryButton}`}>

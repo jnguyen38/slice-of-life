@@ -4,7 +4,7 @@
     align-items: flex-start;
     flex-flow: wrap;
     width: 90%;
-    min-height: 50px;
+    height: var(--footer-height);
     padding: 20px 5%;
     background-color: var(--theme-blue);
     color: white;

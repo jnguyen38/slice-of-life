@@ -4,7 +4,7 @@
 
 .AppHeader {
   background-color: var(--theme-blue);
-  /*background-image: radial-gradient(var(--theme-blue), #63f7ff);*/
+  /*background-image: linear-gradient(90deg, var(--theme-blue), #63f7ff);*/
   min-height: 100vh;
   width: 100%;
   display: flex;

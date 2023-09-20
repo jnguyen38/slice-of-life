@@ -26,7 +26,7 @@ function App() {
             </Head>
 
             <header className={styles.AppHeader}>
-                <Image src={logo} className={styles.AppLogo} alt="" width={350} height={370} priority/>
+                <Image src={logo} alt="" width={350} height={370} priority/>
                 <p>Welcome to</p>
                 <h1>Slice of Life</h1>
             </header>

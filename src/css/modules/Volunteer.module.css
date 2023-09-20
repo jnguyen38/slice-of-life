@@ -1,0 +1,4 @@
+.volunteerContainer {
+    min-height: var(--container-min-height);
+    padding-top: var(--header-height);
+}

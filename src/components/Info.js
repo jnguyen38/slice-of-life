@@ -3,14 +3,14 @@ import styles from "../css/modules/Info.module.css"
 function InfoNav() {
     return (
         <section>
-            <div id={`${styles["infoContainer"]}`}>
+            <div id={`${styles["infoNav"]}`}>
                 <h2>Navigation</h2>
-                <ul>
-                    <li>About Us</li>
-                    <li>Our History</li>
-                    <li>Who We Are</li>
-                    <li>Our Mission</li>
-                </ul>
+                <div>
+                    <div>About Us</div>
+                    <div>Our History</div>
+                    <div>Who We Are</div>
+                    <div>Our Mission</div>
+                </div>
             </div>
         </section>
     );
@@ -18,7 +18,7 @@ function InfoNav() {
 
 function InfoDisplay() {
     return (
-        <section id="info-display">
+        <section id={styles["infoDisplay"]}>
             <div className={``}>
                 <h2>About Us</h2>
                 <p>Slice of Life provides professional role models to arm participants with usable tools to avoid negative pressures for drug use, teen pregnancy, violence, criminal behavior and gang affiliation. We provide activities that are educational, challenging, rewarding and fun. We reach out to the youth of our community to share information and ideas on how we can all work together for a brighter tomorrow by decreasing the number of school drop-outs and increasing the number of high-school and college graduates. Over the past 31 years, 70% or more of the Slice of Life participants have gone on to post-secondary education as a result of having taken advantage of opportunities afforded to them in the program. Slice of Life alumni have returned to the program in the area of leadership, tutoring, mentoring and fundraising.</p>
@@ -31,7 +31,7 @@ function InfoDisplay() {
                 <h2>Who We Are</h2>
                 <p>Slice of Life is a development program that provides tutoring and life skill services for only $100 a semester per student. We provide help for children of grades K-5. The program currently operates Tuesday, Wednesday, and Thursday from 3:15PM until 5:15PM. This after school program is located at Christian Life Center South Bend, 1717 N. Hickory Rd., South Bend, IN 46635. We provide individual tutoring, life skills, character development, recreational team building, field trips, guest speakers, small group interactions, nutritional snacks, parent meetings and award ceremony with celebrations.</p>
             </div>
-            <div className={``} id={`info-mission`}>
+            <div className={``} id={styles["infoMission"]}>
                 <h2>Our Mission</h2>
                 <div className={`line`}/>
                 <p>To provide positive reinforcements for physical and emotional wellness, academic achievement, leadership development and community service to youth in grades K-5.</p>

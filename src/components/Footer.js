@@ -9,8 +9,7 @@ function Footer() {
                     <h1>Contact</h1>
                     <div className="line"/>
                     <p>+1 (574) 272-5683<br/>
-                        1717 N. Hickory Rd<br/>
-                        South Bend, IN 46635
+                        1717 N. Hickory Rd
                     </p>
                 </div>
                 <div id={styles["footerHours"]}>
@@ -35,7 +34,7 @@ function Footer() {
                     </p>
                 </div>
             </div>
-            <div id={styles["footer-cr"]}>
+            <div id={styles["footerCr"]}>
                 <p>&#169; 2022 by Slice of Life South Bend</p>
             </div>
         </div>
