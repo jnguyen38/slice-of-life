@@ -14,7 +14,7 @@
     --border-radius: 5px;
     --header-height: 60px;
     --footer-height: 90px;
-    --container-min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    --container-min-height: calc(100vh - 2*var(--header-height) - var(--footer-height));
     --result-margin-bottom: 20px;
 }
 
@@ -40,10 +40,39 @@ code {
     monospace;
 }
 
+li {
+    padding-inline-start: 1ch;
+}
+
+li::marker {
+    color: var(--theme-blue);
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     font-family: Outfit, sans-serif;
     font-weight: 300;
+}
+
+h2 {
+    color: var(--theme-blue);
+    font-weight: 500;
+    font-size: 2em;
+    margin: 40px 0 20px 0;
+}
+
+h3 {
+    color: var(--theme-blue);
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    color: var(--theme-black);
+    font-weight: 200;
+    margin-bottom: 20px;
+    font-size: 1.1em;
 }
 
 /* Link Classes */
@@ -58,6 +87,15 @@ a:visited {
 }
 a:active { text-decoration: none; }
 a:link { text-decoration: none; }
+
+a.decorate {
+    text-decoration: underline;
+    color: var(--theme-blue);
+}
+a:visited.decorate {
+    text-decoration: underline;
+    color: var(--theme-blue);
+}
 
 /* Text Classes */
 
@@ -186,6 +224,15 @@ a:link { text-decoration: none; }
 .fs-buffer {
     height: 100vh;
     width: 80%;
+}
+
+.main-container {
+    min-height: var(--container-min-height);
+    padding-top: var(--header-height);
+}
+
+.controlled-width {
+    max-width: min(100%, 700px);
 }
 
 @font-face {

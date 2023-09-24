@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import {useEffect, useState} from "react";
 
 function App({ Component, pageProps }) {
-    const [page, setPage] = useState("/");
+    const [page, setPage] = useState("");
     const [scrollingUp, setScrollingUp] = useState(true);
 
     useEffect(() => {
@@ -44,7 +44,7 @@ function App({ Component, pageProps }) {
 
     return (
         <div>
-            <Header page={page} setPage={setPage} scrollingUp={scrollingUp}/>
+            <Header page={page} scrollingUp={scrollingUp}/>
             <Component {...pageProps}/>
             <Footer/>
             <Analytics/>

@@ -4,13 +4,8 @@
 
 .AppHeader {
   background-color: var(--theme-blue);
-  /*background-image: linear-gradient(90deg, var(--theme-blue), #63f7ff);*/
   min-height: 100vh;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: 1.5em;
   color: white;
 }
@@ -24,18 +19,22 @@
   font-style: italic;
 }
 
-@media {
-  .AppDown {
-    animation: point-down infinite 1.5s ease-in-out;
-  }
+.AppTitle {
+
 }
 
-@keyframes point-down {
-  0% {
-    transform: translateY(10px);
-  } 50% {
-    transform: translateY(25px);
-  } 100% {
-    transform: translateY(10px);
+.AppLogo {
+  animation: grow ease-in-out 400ms;
+}
+
+@keyframes grow {
+  from {
+    transform: scale(40%);
+  }
+  70% {
+    transform: scale(120%);
+  }
+  to {
+    transform: scale(100%);
   }
 }

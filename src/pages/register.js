@@ -1,15 +1,9 @@
-import {useEffect} from "react";
-import styles from "../css/modules/Register.module.css";
+import styles from "../css/modules/Register.module.css"
 
 function Register() {
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
-
     return (
         <div className={styles.mapBg}>
-            <div className={`${styles.mapOverlay} d-flex-row-c`}>
+            <div className={styles.mapOverlay}>
                 <main className="container-80">
                     <section className="modal-form wide-modal d-flex-col-c">
                         <form id="register-container" className="form-container d-flex f-col" method="post">
@@ -84,17 +78,17 @@ function Register() {
 
                             <h3 className="fw-3 fs-sm mt-2">Application Questions</h3>
                             <label htmlFor="reason">Reason for Applying</label>
-                            <textarea name="reason" id="reason" maxLength="500" className="rounded" required></textarea>
+                            <textarea name="reason" id="reason" maxLength="500" className="rounded" required/>
 
-                            <div className="form-buttons d-flex jc-c">
-                                <input type="submit" value="Register" className="btn submit"/>
-                            </div>
-                        </form>
-                    </section>
-                </main>
-            </div>
+                        <div className="form-buttons d-flex jc-c">
+                            <input type="submit" value="Register" className="btn submit"/>
+                        </div>
+                    </form>
+                </section>
+            </main>
         </div>
-    );
+</div>
+    )
 }
 
 export default Register;

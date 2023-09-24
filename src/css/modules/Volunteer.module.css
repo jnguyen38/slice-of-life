@@ -1,4 +1,9 @@
-.volunteerContainer {
-    min-height: var(--container-min-height);
-    padding-top: var(--header-height);
+.dome {
+    object-fit: cover;
+    border-radius: 50%;
+    aspect-ratio: 1/ 1;
+    width: min(400px, 90%);
+    height: min(400px, 90%);
+    border: var(--theme-blue) 5px solid;
 }
+
