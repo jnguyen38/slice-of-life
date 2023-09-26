@@ -4,19 +4,22 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
-    "@blueprintjs/core": "^5.1.2",
+    "@blueprintjs/core": "^5.3.1",
+    "@blueprintjs/icons": "^5.1.7",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@vercel/analytics": "^0.1.6",
     "eslint": "8.22.0",
     "eslint-config-next": "^13.1.1",
-    "jquery": "^3.6.3",
+    "jquery": "^3.7.1",
     "lodash": "^4.17.21",
     "lodash.throttle": "^4.1.1",
+    "mysql2": "^3.6.1",
     "next": "^13.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.46.2",
     "uikit": "^3.16.22",
     "web-vitals": "^2.1.4"
   },
@@ -38,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.19",
     "@vercel/node": "^2.15.5"
   }
 }

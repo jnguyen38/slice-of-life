@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e46fdc7c-6edd-45c9-9549-fe608b0419a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/css/modules/Volunteer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/volunteer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/modules/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/modules/App.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/modules/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/modules/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/modules/Info.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/modules/Info.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/components/Input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/components/Input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/modules/Register.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/modules/Register.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/root.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/root.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/schedules.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/schedules.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,47 +35,54 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2FSgj4Wr0xoRnIJTXvRNATi8dEa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;content&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jnguyen/projects/slice-of-life&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "content",
+    "last_opened_file_path": "/Users/jnguyen/projects/slice-of-life/src/css/components",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "Console",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;azure&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "azure",
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/css/components" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\css\components" />
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\public" />
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\media\icons" />
-      <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/media/icons" />
+      <recent name="$PROJECT_DIR$/public/media" />
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\css\modules" />
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\css" />
       <recent name="C:\Users\jnguy\GitHub\slice-of-life\public" />
-      <recent name="C:\Users\jnguy\GitHub\slice-of-life\src\components" />
-      <recent name="C:\Users\jnguy\GitHub\slice-of-life\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -104,7 +112,7 @@
       <workItem from="1689740437987" duration="5093000" />
       <workItem from="1692073052714" duration="4168000" />
       <workItem from="1692561451793" duration="23937000" />
-      <workItem from="1694577170892" duration="637000" />
+      <workItem from="1694577170892" duration="40753000" />
     </task>
     <servers />
   </component>
@@ -121,6 +129,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

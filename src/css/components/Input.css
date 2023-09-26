@@ -1,3 +1,7 @@
+input, select, textarea, label {
+    display: block;
+}
+
 input, select, textarea {
     font-family: Outfit, sans-serif;
     font-size: 1em;
@@ -5,6 +9,16 @@ input, select, textarea {
     outline: none;
     border: 1px solid var(--theme-blue);
     padding: 8px;
+    min-width: 100px;
+    transition: border-color 150ms;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    border-width: 2px;
 }
 
 optgroup {
@@ -35,7 +49,30 @@ textarea {
 }
 
 label {
-    font-weight: 200;
+    font-weight: 400;
+    min-width: 100px;
+    color: #bbb;
+    position: absolute;
+    background-color: var(--theme-white);
+    border-radius: var(--border-radius);
+    padding: 0 5px;
+    transform: translateY(-150%) translateX(5px);
+    cursor: text;
+    user-select: none;
+    transition: all 100ms;
+}
+
+input.long + label {
+    min-width: 250px;
+}
+
+input.short + label {
+    min-width: 100px;
+}
+
+input[type="button"],
+input[type="submit"] {
+    cursor: pointer;
 }
 
 .primary {
@@ -49,13 +86,13 @@ label {
 }
 
 .secondary {
-    background-color: transparent;
+    background-color: var(--theme-blue);
     color: var(--theme-white);
     border: 1px solid var(--theme-white);
 }
 
 .secondary:hover {
-    background-color: #FFFFFF33;
+    background-color: var(--theme-blue-hover);
 }
 
 .light {
@@ -68,3 +105,50 @@ label {
     background-color: #eeeeee;
 }
 
+div.input {
+    position: relative;
+}
+
+input:focus + label,
+input:-webkit-autofill + label,
+input[type='password'] + label,
+input.has-value + label,
+textarea + label,
+select + label{
+    min-width: 0;
+    transform: translateY(-275%) translateX(10px);
+    font-size: .8em;
+    color: var(--theme-blue);
+}
+
+.long {
+    width: 250px;
+}
+.short {
+    width: 100px;
+}
+
+input.error,
+select.error {
+    border-color: var(--theme-red);
+}
+
+option.default-option {
+    color: #bbb;
+}
+
+.error-next {
+    animation: 500ms ease-in-out error;
+}
+
+@keyframes error {
+    10%, 50%, 90% {
+        transform: translateX(-5px);
+    }
+    30%, 60% {
+        transform: translateX(5px);
+    }
+    15%, 85% {
+        background-color: var(--theme-red);
+    }
+}

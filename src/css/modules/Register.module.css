@@ -1,14 +1,52 @@
-.mapOverlay {
-    width: 100%;
-    min-height: 80vh;
-    padding: calc(var(--header-height) * 1.5) 0;
-    background-color: var(--theme-blue-overlay);
-}
-
-
 .mapBg {
     /*noinspection CssUnknownTarget*/
     background-image: url("/media/ND_map_bw.png");
 }
 
+.mapOverlay {
+    background-color: var(--theme-blue-overlay);
+}
 
+.modal {
+    width: min(700px, 85%);
+    background: var(--theme-white);
+    box-shadow: 5px 5px 5px #888;
+    margin: 40px 0;
+    padding: 20px 40px 40px 40px;
+    border-radius: var(--border-radius);
+}
+
+.add {
+    border-radius: var(--border-radius);
+    color: var(--theme-white);
+    background-color: var(--theme-blue);
+    cursor: pointer;
+    font-size: .8em;
+}
+
+.warning, .remove {
+    border-radius: var(--border-radius);
+    color: var(--theme-white);
+    background-color: var(--theme-red);
+    border-color: var(--theme-red);
+    font-size: .8em;
+}
+
+.warning {
+    padding: 4px 8px;
+}
+
+.remove {
+    cursor: pointer;
+}
+
+.edit {
+    padding: 4px 8px 2px 8px;
+}
+
+@media (min-width: 768px) {
+    .indent {
+        margin-left: 3em;
+        width: 90%;
+    }
+}

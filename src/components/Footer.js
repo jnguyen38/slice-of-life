@@ -1,7 +1,9 @@
 import Link from "next/link";
 import styles from "../css/modules/Footer.module.css";
 
-function Footer() {
+function Footer(props) {
+    if (props.page === "/admin") return;
+
     return (
         <div id={styles["footerContainer"]}>
             <div id={styles["footerInfo"]}>
