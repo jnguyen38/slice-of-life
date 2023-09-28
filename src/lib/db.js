@@ -1,12 +1,11 @@
 import mysql from "mysql2";
-import fs from "fs";
 
 let config =
     {
-        host: 'slice-of-life-db.mysql.database.azure.com',
-        user: 'soladmin',
+        host: process.env.SOLHOST,
+        user: process.env.SOLADMIN,
         password: process.env.SOLPASS,
-        database: 'main',
+        database: process.env.SOLMAIN,
         port: 3306,
         ssl: {ca: process.env.SOLPEM}
     };

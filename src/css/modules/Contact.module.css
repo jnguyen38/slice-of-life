@@ -1,0 +1,33 @@
+.profile {
+    background-color: var(--theme-blue);
+    border-radius: 10px;
+    width: min(150px, 70%);
+    aspect-ratio: 3/4;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out 0ms;
+}
+
+.profile:hover {
+    transform: scale(110%);
+}
+
+.profileContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+@media (min-width: 768px) {
+    .profileContainer {
+        justify-content: flex-start;
+    }
+}
+
+@media(prefers-reduced-motion) {
+    .profile {
+        transition: none;
+    }
+}

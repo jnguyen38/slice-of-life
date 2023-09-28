@@ -308,6 +308,7 @@ function StudentReview(props) {
             <p className={"fw-2 fs-xs m-0"}>Date of Birth: {props.formValues[`birthday${props.index}`]}</p>
             <p className={"fw-2 fs-xs m-0"}>School: {props.formValues[`school${props.index}`]}</p>
             <p className={"fw-2 fs-xs m-0"}>Grade: {props.formValues[`studentGrade${props.index}`]}</p>
+            <p className={"fw-2 fs-xs m-0"}>Allergies: {props.formValues[`allergy${props.index}`]}</p>
         </div>
     )
 }
@@ -331,8 +332,8 @@ function Student(props) {
                 <Input {...props} type={`text`} id={`studentFirst${props.index}`} label={`first name`}/>
                 <Input {...props} type={`text`} id={`studentLast${props.index}`} label={`last name`}/>
                 <Input {...props} type={`date`} id={`birthday${props.index}`} label={`date of Birth`}/>
-                <Select {...props} id={`relationship${props.index}`} label={`relationship`} options={["Father", "Mother", "Legal Guardian", "Other"]}/>
                 <Input {...props} type={`text`} id={`school${props.index}`} label={`school`}/>
+                <Input {...props} type={`text`} id={`allergy${props.index}`} label={`allergies`}/>
                 <Select {...props} id={`studentGrade${props.index}`} label={`grade`} options={["Kindergarten", "First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Eighth", "High School"]}/>
             </div>
         </div>

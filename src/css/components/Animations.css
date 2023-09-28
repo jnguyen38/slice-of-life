@@ -1,0 +1,24 @@
+.transparent {
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateX(-100%);
+}
+
+.show {
+    filter: none;
+    transform: translateX(0);
+    animation: slide-in 1s;
+}
+
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        filter: blur(3px);
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        filter: none;
+        transform: translateX(0);
+    }
+}
